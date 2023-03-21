@@ -117,3 +117,64 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.cart-products {
+  max-height: 400px;
+  overflow: auto; 
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0px 25px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 35vh;
+  gap: 5px;
+  border: 1px solid #F5F5F5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+img{
+  width: 100%;
+}
+
+.tag{
+  background-color: #2E245E;
+  color: #F5F5F5;
+  padding: 5px;
+  margin: 10px 25px;
+  width: 15vh;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cart-list{
+  display: block;
+}
+
+.cartCard{
+  display: flex;
+}
+
+.cardText{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgCart{
+  width: 105%;
+}
+
+#todos, #acessorios, #camisetas{
+  cursor: pointer;
+}
